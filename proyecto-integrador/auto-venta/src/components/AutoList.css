@@ -1,0 +1,35 @@
+/* Estilo general para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  td, th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para las celdas del encabezado */
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Estilo para las imágenes dentro de la tabla */
+  .imagen {
+    width: 100px; /* Limita el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 4px; /* Bordes redondeados */
+    object-fit: cover; /* Para que la imagen cubra el espacio sin distorsionarse */
+  }
+  
+  /* Estilo general para el encabezado de la página */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
